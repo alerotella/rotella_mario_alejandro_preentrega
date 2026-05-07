@@ -16,3 +16,9 @@ pip install -r requirements.txt
 
 # Ejecución pruebas
 python3 -m pytest .\tests\test_saucedemo.py -v --html=reporte.html
+
+### Pruebas individuales
+- python3 -m pytest -m login -v
+- python3 -m pytest -m catalogo -v 
+- python3 -m pytest -m carrito -v
+- python3 -m pytest -m menu -v
