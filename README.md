@@ -13,4 +13,6 @@ Proyecto automatización con Selenium y Chrome de la web SAUCEDEMO.COM
 
 # Instalación
 pip install -r requirements.txt
- 
+
+# Ejecución pruebas
+python3 -m pytest .\tests\test_saucedemo.py -v --html=reporte.html
